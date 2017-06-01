@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Fauna+One|Oxygen:400,300,700");
+
+.App {
+  font-family: Oxygen, Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5 {
+font-family: "Fauna One";
+font-weight: 400;
+color: #008BF8; }
+
+.container {
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.col-xs-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+header {
+  color: #666;
+  /*background-color: #f3f3f3;*/
+  min-height: 20px;
+  padding: 10px;
+  margin-bottom: 20px; }
+  header .title {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  header .user-links {
+    float: right; }
+    header .user-links button {
+      background: none;
+      cursor: pointer;
+      padding: 0;
+      border: 0; }
+      header .user-links button:hover {
+        color: #999; }
+
+a:link, a:visited, a:hover, a:active {
+  color: #008BF8; }
+
+i.fa-trash-o {
+  cursor: pointer;
+  color: #ccc;
+  vertical-align: middle;
+  margin-left: 1em; }
+  i.fa-trash-o:hover {
+    color: #999; }
+
+.wysihtml5-toolbar .btn-default {
+  color: #999; }
+
+#welcome h1 {
+  color: #008BF8; }
+#welcome main {
+  margin: 0 auto;
+  width: 360px; }
+
+span.user-link {
+  margin-left: 1em; }
+
+.ta-editor {
+  margin-top: 0.5em; }
+
+.App .alert.alert-success {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border: none;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+  color: #d3d3d3;
+  background-color: inherit;
+}
+.App .alert-danger {
+  margin-top: 1rem;
+}
+.http-loader__wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}

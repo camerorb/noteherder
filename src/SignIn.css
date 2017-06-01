@@ -1,0 +1,64 @@
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  background: url(http://unsplash.it/1500/1000?image=885&blur=50);
+  background-size: cover;
+  height: 100vh; }
+  .SignIn header {
+    background-color: #fff;
+    height: 80px;
+    padding: 0 2rem;
+    margin: 0; }
+    .SignIn header img {
+      width: 30px;
+      height: 30px;
+      padding-bottom: 4px;
+      margin-right: 4px;
+    }
+    .SignIn header .title {
+      color: #008BF8;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 80px;
+      font-family: "Fauna One";
+      font-size: 2.2rem;}
+  .SignIn main {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .SignIn main h3 {
+      font-family: "Fauna One";
+      color: #fff;
+      font-size: 3rem;
+      margin-bottom: 2rem; }
+    .SignIn p {
+      color: white;
+      font-family: "Fauna One";
+      font-size: 1.7rem;
+      font-weight: 300;
+      width: 30em;
+      margin: 0 auto;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      padding-bottom: 2rem; }
+
+
+.SignIn button {
+  background-color: #008BF8;
+  border: 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1.5rem 2.25rem;
+  margin-top: 2rem; }
+  .SignIn button:hover {
+    background-color: #239eff;
+    color: white;
+  }
+  .SignIn button i.fa {
+    font-size: 2.5rem;
+    vertical-align: middle;
+  }
